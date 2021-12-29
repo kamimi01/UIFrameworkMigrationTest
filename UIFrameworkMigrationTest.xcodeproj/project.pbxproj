@@ -13,6 +13,8 @@
 		D4C60C14277C51DC009157E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C60C12277C51DC009157E9 /* Main.storyboard */; };
 		D4C60C16277C51E0009157E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C60C15277C51E0009157E9 /* Assets.xcassets */; };
 		D4C60C19277C51E0009157E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4C60C17277C51E0009157E9 /* LaunchScreen.storyboard */; };
+		D4C60C25277C5A0F009157E9 /* UIFrameworkMigrationTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C60C24277C5A0F009157E9 /* UIFrameworkMigrationTestApp.swift */; };
+		D4C60C27277C5A25009157E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C60C26277C5A25009157E9 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D4C60C15277C51E0009157E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4C60C18277C51E0009157E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4C60C1A277C51E0009157E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4C60C24277C5A0F009157E9 /* UIFrameworkMigrationTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFrameworkMigrationTestApp.swift; sourceTree = "<group>"; };
+		D4C60C26277C5A25009157E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D4C60C15277C51E0009157E9 /* Assets.xcassets */,
 				D4C60C17277C51E0009157E9 /* LaunchScreen.storyboard */,
 				D4C60C1A277C51E0009157E9 /* Info.plist */,
+				D4C60C24277C5A0F009157E9 /* UIFrameworkMigrationTestApp.swift */,
+				D4C60C26277C5A25009157E9 /* ContentView.swift */,
 			);
 			path = UIFrameworkMigrationTest;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C60C11277C51DC009157E9 /* ViewController.swift in Sources */,
+				D4C60C27277C5A25009157E9 /* ContentView.swift in Sources */,
+				D4C60C25277C5A0F009157E9 /* UIFrameworkMigrationTestApp.swift in Sources */,
 				D4C60C0D277C51DC009157E9 /* AppDelegate.swift in Sources */,
 				D4C60C0F277C51DC009157E9 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,8 +301,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIFrameworkMigrationTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,8 +327,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIFrameworkMigrationTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
